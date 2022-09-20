@@ -8,7 +8,7 @@ html{
 }
 
 body {
-    background-color: #aceaf5;
+    background-color: #c5e9f0;
     margin: 0;
     height: 100%;
 }
@@ -67,10 +67,10 @@ h4 {
 .block{
     background: azure;
     margin-bottom: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     width: 338px;
     padding: 16px;
-    border-radius: 10px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .2);
+    border-radius: 20px;
 }
 
 .contentBlock{ 
@@ -86,8 +86,8 @@ h4 {
     padding: 16px;
     margin-bottom: -110px;
     margin-right:0px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-    border-radius: 10px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .2);
+    border-radius: 20px;
 }
 
 h2 {
