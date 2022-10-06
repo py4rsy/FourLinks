@@ -78,9 +78,8 @@ h4 {
     background: azure;
     margin-bottom: 16px;
     width: 338px;
-    max-width: 30%;
     padding: 16px;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 9px 2px rgba(104, 110, 114, 0.29);
     border-radius: 20px;
 }
 
@@ -99,7 +98,7 @@ h4 {
     padding: 16px;
     margin-bottom: -110px;
     margin-right:0px;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 9px 2px rgba(104, 110, 114, 0.29);
     border-radius: 20px;
     z-index: 2;
 }
@@ -179,6 +178,7 @@ h3 {
     width: 50px;
     height: 50px;
     border-radius: 100%;
+    box-shadow: 0px 0px 9px 2px rgba(104, 110, 114, 0.29);
     position: relative;
     background-color: #f5b7ac;
     animation-name: loading;
