@@ -70,6 +70,7 @@ h4 {
     margin-left:0px;
     float:right;
     width:370px;
+    max-width: 30%;
     position:relative;
     z-index: 2;
 }
@@ -93,6 +94,7 @@ h4 {
     background: azure;
     float:left;
     width:830px;
+    max-width: 65%;
     padding: 16px;
     margin-bottom: -110px;
     margin-right:0px;
