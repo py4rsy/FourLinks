@@ -59,7 +59,6 @@ h4 {
     padding-right: 16px;
     padding-top: 16px;
     padding-bottom: 16px;
-    min-height: 100%;
     height: auto;
     max-width: 90%;
 }
@@ -79,6 +78,7 @@ h4 {
     background: azure;
     margin-bottom: 16px;
     width: 338px;
+    max-width: 30%;
     padding: 16px;
     box-shadow: 0 5px 4px rgba(0, 0, 0, .2);
     border-radius: 20px;
@@ -87,6 +87,7 @@ h4 {
 .contentBlock{ 
     margin-bottom: 35px;
     width: 830px;
+    max-width: 65%;
     border-bottom: 10px#715656;
 }
 
