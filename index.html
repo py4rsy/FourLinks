@@ -7,6 +7,28 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="icon" href="images/icons/icon.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $.fn.scrollToTop=function(){
+          $(this).hide().removeAttr("href");
+          if($(window).scrollTop()!="0"){
+              $(this).fadeIn("slow")
+        }
+        var scrollDiv=$(this);
+        $(window).scroll(function(){
+          if($(window).scrollTop()=="0"){
+          $(scrollDiv).fadeOut("slow")
+          }else{
+          $(scrollDiv).fadeIn("slow")
+        }
+        });
+          $(this).click(function(){
+            $("html, body").animate({scrollTop:0},"slow")
+          })
+        }
+      });
+      $(function() {$("#toTop").scrollToTop();});
+    </script>
   </head>
   <body>
     <header>
@@ -14,6 +36,7 @@
         <h4>code by 4rsy_</h4>
     </header>
     <div class="wrapper">
+      <a href="#" id="toTop"></a>
       <div class="sidebar">
         <div class="block">
           <h2>Пишу говнокод, потому что могу себе позволить</h2>

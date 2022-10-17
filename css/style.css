@@ -193,3 +193,33 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
+#toTop {
+    position:fixed;
+    z-index:9999;
+    bottom:10px;
+    left: 120px;
+    background: #F4FFBF;
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+    width:100px;
+   }
+
+   #toTop {
+    position:fixed;
+    z-index:9999;
+    bottom:10px;
+    right:10px;
+    background: url(../images/icons/toUp.png);
+    background-size:contain;
+    width: 64px;
+    height: 64px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    text-decoration: none;
+   }
